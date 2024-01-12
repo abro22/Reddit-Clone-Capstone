@@ -1,8 +1,5 @@
 console.log("hello")
 
-
-
-
 fetch("/reddit-post")
     .then((response) => {
 
@@ -73,7 +70,7 @@ function getsubreddit(subreddit) {
 }
 
 
-//functio that uses info
+//functions that uses info
 
 function displayPost(json) {
 
